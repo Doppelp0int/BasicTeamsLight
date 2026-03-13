@@ -51,13 +51,13 @@ WS2812 GND → ESP32 GND
 
 ## Usage
 
-On first boot without saved WiFi credentials, ESP32 creates an AP: `BasicTeamsLamp` Password: 12345678  
-Connect to the AP and open browser at `192.168.4.1` (Please connect from your Phone, on PC it sometimes does not work!)
-Select WiFi network, enter password, set brightness, and save. ESP32 will restart  
-After connecting to WiFi, open the web interface at the ESP32 IP printed in Serial Monitor  
-Click buttons to change LED status; the colored circle shows the currently active status  
-Adjust brightness with the slider (shown in %)  
-The PowerShell script will send the HTTP POST Requests, see bellow...
+- On first boot without saved WiFi credentials, ESP32 creates an AP: `BasicTeamsLamp` Password: 12345678  
+- Connect to the AP and open browser at `192.168.4.1` (Please connect from your Phone, on PC it sometimes does not work!)
+- Select WiFi network, enter password, set brightness, and save. ESP32 will restart
+- After connecting to WiFi, open the web interface at the ESP32 IP printed in Serial Monitor  
+- Click buttons to change LED status; the colored circle shows the currently active status  
+- Adjust brightness with the slider (shown in %)  
+- The PowerShell script will send the HTTP POST Requests, see bellow...
 
 ---
 
