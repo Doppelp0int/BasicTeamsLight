@@ -1,7 +1,7 @@
 # BasicTeamsLight
 
 A simple Teams/microphone status light using ESP32 — no Microsoft Graph API required.  
-
+![Image Alt](https://github.com/Doppelp0int/BasicTeamsLight/blob/main/img/Image.jpg?raw=true)
 ---
 
 ## Overview
@@ -32,12 +32,13 @@ Arduino CLI (for automated upload via PowerShell)
 
 ## Features
 
-Four status modes with corresponding LED colors: Available – Green, In Call – Red (optional pulsing), Away – Yellow (255, 222, 33), Offline – Off  
+Four status modes with corresponding LED colors: Available – Green, In Call – Red, Away – Yellow (255, 255, 0), Offline – Off
 Web interface to change status, configure WiFi, and adjust brightness (displayed in %)  
 WiFi network scan with signal strength in %  
-Non-blocking LED animations: Blue scanning light when disconnected, pulsing fallback light during AP setup  
-Stores WiFi credentials and brightness in flash memory  
+Blue scanning light when disconnected/searching for AP, pulsing fallback AP light during new AP setup  
+Stores WiFi credentials and brightness in flash memory
 
+![Image Alt](https://github.com/Doppelp0int/BasicTeamsLight/blob/main/img/1.png?raw=true)
 ---
 
 ## Wiring
@@ -58,7 +59,7 @@ Select WiFi network, enter password, set brightness, and save. ESP32 will restar
 After connecting to WiFi, open the web interface at the ESP32 IP printed in Serial Monitor  
 Click buttons to change LED status; the colored circle shows the currently active status  
 Adjust brightness with the slider (shown in %)  
-
+The PowerShell script will send the HTTP POST Requests, see bellow...
 ---
 
 ## PowerShell Command Script (Windows 11)
