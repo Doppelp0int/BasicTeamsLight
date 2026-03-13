@@ -60,6 +60,7 @@ After connecting to WiFi, open the web interface at the ESP32 IP printed in Seri
 Click buttons to change LED status; the colored circle shows the currently active status  
 Adjust brightness with the slider (shown in %)  
 The PowerShell script will send the HTTP POST Requests, see bellow...
+
 ---
 
 ## PowerShell Command Script (Windows 11)
