@@ -43,8 +43,8 @@ Stores WiFi credentials and brightness in flash memory
 ## Wiring
 
 WS2812 Data → ESP32 Pin 5  
-WS2812 VCC → 5V Power Supply  
-WS2812 GND → ESP32 GND & Power Supply GND  
+WS2812 VCC → 5V Power Supply  --> ESP32 VCC
+WS2812 GND → ESP32 GND
 
 **Note:** Each LED can draw ~60mA at full brightness. Make sure your PSU can handle the total current.  
 
@@ -53,7 +53,7 @@ WS2812 GND → ESP32 GND & Power Supply GND
 ## Usage
 
 On first boot without saved WiFi credentials, ESP32 creates an AP: `BasicTeamsLamp` Password: 12345678  
-Connect to the AP and open browser at `192.168.4.1`  
+Connect to the AP and open browser at `192.168.4.1` (Please connect from your Phone, on PC it sometimes does not work!)
 Select WiFi network, enter password, set brightness, and save. ESP32 will restart  
 After connecting to WiFi, open the web interface at the ESP32 IP printed in Serial Monitor  
 Click buttons to change LED status; the colored circle shows the currently active status  
