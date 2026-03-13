@@ -12,9 +12,9 @@ This project uses an ESP32 and a WS2812 LED ring to display your status (Availab
 
 ## Components
 
-ESP32 Dev Board — Main controller — [Amazon Link](https://www.amazon.de/dp/B0DHRV7784?ref=ppx_yo2ov_dt_b_fed_asin_title)  
-WS2812 LED Ring (12 LEDs) — RGB LEDs for status display — [Amazon Link](https://www.amazon.de/dp/B0G58LQY3P?ref=ppx_yo2ov_dt_b_fed_asin_title)  
-5V 3A Power Supply — Powers ESP32 & LEDs — [Amazon Link](https://www.amazon.de/dp/B01EV70C78?ref=ppx_yo2ov_dt_b_fed_asin_title)  
+ESP32 Dev Board — Main controller — [Amazon Link](https://amzn.to/3OZXNXJ)  
+WS2812 LED Ring (12 LEDs) — RGB LEDs for status display — [Amazon Link](https://amzn.to/4cNdxHq)  
+Cables — [Amazon Link](https://amzn.to/3OZXQTp)  
 
 ---
 
