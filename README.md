@@ -25,8 +25,6 @@ FastLED 3.10.3
 WebServer (built-in ESP32)  
 Preferences (built-in ESP32)  
 DNSServer (built-in ESP32)  
-Optional: Websockets 2.6.1  
-Arduino CLI (for automated upload via PowerShell)  
 
 ---
 
@@ -63,7 +61,7 @@ The PowerShell script will send the HTTP POST Requests, see bellow...
 
 ---
 
-## PowerShell Command Script (Windows 11)
+## PowerShell Command Script (only Works on Windows 11)
 
 You can send status commands to the ESP32 using PowerShell. Save this as `sendStatus.ps1` in your **Autostart** folder. It will monitor your microphone state and automatically send the current status to the ESP32.
 
