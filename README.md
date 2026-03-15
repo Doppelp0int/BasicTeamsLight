@@ -41,9 +41,10 @@ Stores WiFi credentials and brightness in flash memory
 
 ## Wiring
 
-WS2812 Data → ESP32 Pin 5  
-WS2812 VCC → 5V Power Supply  --> ESP32 VCC
-WS2812 GND → ESP32 GND
+- WS2812 Data → ESP32 Pin 5  
+- WS2812 VCC → ESP32 VCC
+- WS2812 GND → ESP32 GND
+- Powered by USB-C
 
 **Note:** Each LED can draw ~60mA at full brightness. Make sure your PSU can handle the total current.  
 
